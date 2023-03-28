@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Job</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="job-list" id="home">JOB BOARD</h1>
+      <form id="search-form">
+        <input type="text" id="search-input" placeholder="Search" />
+        <button  class="srch-btn"><i class="fa fa-search"></i></i></button>
+      </form>
+    </header>
+    <main>
+      <h2 class="job-lists">Job lists</h2>
+      <section id="jobs-list">
+        
+      </section>
+      <form id="application-form">
+        <h2 id="apply1" >Apply for Job</h2>
+        
+        <label for="job-select" >Select a Job:</label>
+        <select id="job-select" required>
+          <option value="">--Select a job--</option>
+          <option value="Software Engineer">Software Engineer</option>
+          <option value="Web Developer">Web Developer</option>
+          <option value="Marketing Specialist">Marketing Specialist</option>
+          <option value="Sales Representative">Sales Representative</option>
+        </select>
+        <label for="name-input">Name:</label>
+        <input type="text" id="name-input" required />
+        <label for="email-input">Email:</label>
+        <input type="email" id="email-input" required />
+        <label for="resume-input">Upload Resume:</label>
+        <input type="file" id="resume-input" required />
+        <button type="submit">Submit Application</button>
+      </form>
+
+      <div id="message-container"></div>
+
+    </main>
+    
+    <footer>
+      <p class="foot">created by Tamirat, Abdisa & Hussen</p>
+      <p class="foot">Job Board 2023 all right are &reg reserved.</p>
+    </footer>
+    <script src="app.js">
+
+
+
+    </script>
+  </body>
+</html>
+
+
